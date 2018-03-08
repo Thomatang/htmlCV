@@ -1,0 +1,162 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid-item { 
+    width: 25%;
+ }
+.grid-item--width2 { 
+    width: 50%; 
+}
+
+.fullname {
+    
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+.myTitle{
+    letter-spacing: 1px;
+}
+.header{
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: solid 3px rgb(58, 58, 58);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.educationTitle{
+    font-size: 25px;
+}
+
+.jobTitle {
+ font-size: 25px;
+}
+
+.projectTitle{
+    font-size: 25px;
+}
+
+.initiativeTitle{
+    font-size: 25px;
+}
+
+.company {
+font-size: 20px;
+font-weight: bold;
+color: #2C75FF;
+letter-spacing: 1px;
+}
+
+/* .gradientcolor{
+      color: #2C75FF;
+    background-image: -webkit-linear-gradient(92deg,purple,#2C75FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.gradientcolor {
+    font-size: 30px;      
+    	background:-moz-linear-gradient(top, #64CED3 0%, #64CED3 25%, #3BBCC2 50%, #1ab0b5 75%,  #64CED3 100%); 
+        background: -webkit-linear-gradient(top, #64CED3 0%, #64CED3 25%, #3BBCC2 50%, #1ab0b5 75%,  #64CED3 100%); 
+        background: linear-gradient(to bottom,  #64CED3 0%, #64CED3 25%, #3BBCC2 50%, #1ab0b5 75%,  #64CED3 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+       -webkit-text-fill-color:transparent;
+}
+
+/* linear-gradient(135deg, #00c4cc, #7d2ae8); */
+
+
+.profileIcon{
+    font-size: 18px;
+}
+
+.achievementIcon{
+    font-size: 30px;
+}
+
+.profileIcon svg * {
+    fill: url(#rg);
+ }
+.profileLinks {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profilecontent{
+    display: flex;
+    align-items: center;
+}
+
+.experienceCard {
+    margin-bottom: 30px;
+}
+
+.achievementTitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.achievementCards {
+    border-bottom: dashed 1px grey;
+}
+
+.grid-item{
+    width: 25%; 
+    margin: 1px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.fa-calendar-alt{
+    font-size: 15px;
+    color: grey;
+    margin-right:5px;
+}
+.fa-map-marker-alt{
+    font-size: 15px;
+    color: grey;
+    margin-right:5px;
+}
+
+progress{
+	-webkit-appearance: none;
+	appearance: none;
+    width: 75%;
+    
+	
+}
+
+::-webkit-progress-bar {
+  background-color: #fdf497;
+  
+}
+
+::-webkit-progress-value {
+  background:linear-gradient(to bottom,  #64CED3 0%, #64CED3 25%, #3BBCC2 50%, #1ab0b5 75%,  #64CED3 100%);
+}
+
+.freepixIcons{
+    height: 30px;
+    width: auto;
+}
+
+.passionCard{
+    display: flex;
+    
+}
+
+.strengthCard{
+    display: flex;
+}
+
+.passionsFontAwesomeIcons{
+    font-size: 25px;
+}
+
