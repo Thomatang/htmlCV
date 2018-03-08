@@ -129,12 +129,13 @@ progress{
 	-webkit-appearance: none;
 	appearance: none;
     width: 75%;
+    border: solid 1px gainsboro;
     
 	
 }
 
 ::-webkit-progress-bar {
-  background-color: #fdf497;
+  background-color: whitesmoke;
   
 }
 
