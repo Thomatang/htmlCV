@@ -8,6 +8,9 @@ html {
 .grid-item--width2 { 
     width: 50%; 
 }
+.borda{
+    border-right: dashed grey 1px;
+}
 
 .fullname {
     
