@@ -1,15 +1,27 @@
+
 html {
     font-family: 'Roboto', sans-serif;
 }
-
-.grid-item { 
-    width: 25%;
+/* .grid{
+ width: 80%;
+} */
+.grid-sizer,
+.grid-item{ 
+    width: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
  }
 .grid-item--width2 { 
     width: 50%; 
+    font-family: 'Montserrat', sans-serif;
 }
 .borda{
-    border-right: dashed grey 1px;
+    border-right: dashed #cccccc 1px;
+}
+
+.hideez{
+    visibility: hidden;
 }
 
 .fullname {
@@ -22,10 +34,12 @@ html {
 
 .myTitle{
     letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
 }
 .header{
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
     border-bottom: solid 3px rgb(58, 58, 58);
     margin-bottom: 30px;
     margin-top: 30px;
@@ -34,43 +48,42 @@ html {
 
 .educationTitle{
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .jobTitle {
  font-size: 25px;
+ font-family: 'Roboto', sans-serif;
 }
 
 .projectTitle{
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .initiativeTitle{
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .company {
 font-size: 20px;
 font-weight: bold;
-color: #2C75FF;
+color: #1ab0b4;
 letter-spacing: 1px;
+font-family: 'Roboto', sans-serif;
 }
-
-/* .gradientcolor{
-      color: #2C75FF;
-    background-image: -webkit-linear-gradient(92deg,purple,#2C75FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
 
 .gradientcolor {
     font-size: 30px;      
-    	background:-moz-linear-gradient(top, #64CED3 0%, #64CED3 25%, #3BBCC2 50%, #1ab0b5 75%,  #64CED3 100%); 
+    /*background:-moz-linear-gradient(top, #64CED3 0%, #64CED3 25%, #3BBCC2 50%, #1ab0b5 75%,  #64CED3 100%); 
         background: -webkit-linear-gradient(top, #64CED3 0%, #64CED3 25%, #3BBCC2 50%, #1ab0b5 75%,  #64CED3 100%); 
         background: linear-gradient(to bottom,  #64CED3 0%, #64CED3 25%, #3BBCC2 50%, #1ab0b5 75%,  #64CED3 100%);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;
-       -webkit-text-fill-color:transparent;
+       -webkit-text-fill-color:transparent;*/
+       color: #1ab0b4;
 }
 
 /* linear-gradient(135deg, #00c4cc, #7d2ae8); */
@@ -99,6 +112,7 @@ letter-spacing: 1px;
 
 .experienceCard {
     margin-bottom: 30px;
+    border-bottom: dashed 1px #cccccc;
 }
 
 .achievementTitle {
@@ -107,7 +121,7 @@ letter-spacing: 1px;
 }
 
 .achievementCards {
-    border-bottom: dashed 1px grey;
+    border-bottom: dashed 1px #cccccc;
 }
 
 .grid-item{
@@ -119,7 +133,7 @@ letter-spacing: 1px;
 
 .fa-calendar-alt{
     font-size: 15px;
-    color: grey;
+    color: #cccccc;
     margin-right:5px;
 }
 .fa-map-marker-alt{
@@ -131,8 +145,9 @@ letter-spacing: 1px;
 progress{
 	-webkit-appearance: none;
 	appearance: none;
-    width: 75%;
     border: solid 1px gainsboro;
+    border-radius: 8px;
+    padding: 5px;
     
 	
 }
@@ -153,14 +168,30 @@ progress{
 
 .passionCard{
     display: flex;
+    font-weight: 500;
+    font-size: 20px;
     
 }
 
 .strengthCard{
     display: flex;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .passionsFontAwesomeIcons{
     font-size: 25px;
 }
 
+p{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.languageCards{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
