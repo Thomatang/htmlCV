@@ -108,6 +108,10 @@ font-family: 'Roboto', sans-serif;
 .profilecontent{
     display: flex;
     align-items: center;
+    letter-spacing: 1px;
+}
+.profilecontent p {
+    font-weight: normal;
 }
 
 .experienceCard {
@@ -145,11 +149,7 @@ font-family: 'Roboto', sans-serif;
 progress{
 	-webkit-appearance: none;
 	appearance: none;
-    border: solid 1px gainsboro;
     border-radius: 8px;
-    padding: 5px;
-    
-	
 }
 
 ::-webkit-progress-bar {
@@ -185,6 +185,7 @@ progress{
 
 p{
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     
 }
 li{
@@ -195,3 +196,5 @@ li{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
+
+

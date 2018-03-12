@@ -15,6 +15,7 @@
     <title>Thomas Ward Bouchard CV</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script>
         /*
@@ -51,11 +52,11 @@
     </script>
 </head>
 
-<body class="m-5 p-4"> <!--m-5 p-5 -->
+<body class="my-5 ml-5 mr-0 py-4 pl-4 pr-0"> <!--m-5 p-5 -->
     <!--FIRST PAGE OF CV -->
     <!--FIRST PAGE OF  -->
     <h1 class= "fullname col-12 p-0">THOMAS WARD BOUCHARD</h1>
-    <h2 class="myTitle gradientcolor">Developer, Creator, Entrepreneur</h2>
+    <h2 class="myTitle gradientcolor mt-2 mb-4">Developer, Creator, Entrepreneur</h2>
     <div class="profileLinks col-10 d-flex justify-content-between px-0">
         <div class=" d-flex"> 
             <div class="profileIcon">
@@ -146,11 +147,38 @@
                     in its business, with 380,000 employees, present on 34,000 sites in 80 countries.</p>
                 </div>
             </div>
+            <div class="strengths">
+                <div class="header">
+                    STRENGTHS
+                </div>
+                <div class=" d-flex">
+                    <div class="strengthsLeftColumn col-6 p-0">
+                        <div class="strengthCard">
+                            <img class="freepixIcons" src="icons/dream-catcher.svg" />
+                            <p class="ml-4">Creative</p>
+                        </div>
+                        <div class="strengthCard">
+                            <img class="freepixIcons" src="icons/resilience.svg">
+                            <p class="ml-4">Resilient</p>
+                        </div>
+                    </div>
+                    <div class="strengthsRightColumn col-6 p-0">
+                        <div class="strengthCard">
+                            <img class="freepixIcons" src="icons/meditation.svg">
+                            <p class="ml-4">Calm under pressure</p>
+                        </div>
+                        <div class="strengthCard">
+                            <img class="freepixIcons" src="icons/astro.svg">
+                            <p class="ml-4">Bold Thinker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="rightColumn col-4 ml-2 p-0">
+        <div class="rightColumn col-4 ml-4 p-0">
             <div class="col-12 achievements">
                 <div class="header">ACHIEVEMENTS</div>
-                <div class="achievementCards d-flex p-4 justify-content-around">
+                <div class="achievementCards d-flex p-4 justify-content-center">
                         <div class="profileIcon achievementIcon col-2 p-0">
                             <i class="far fa-compass"></i>
                         </div>
@@ -159,7 +187,7 @@
                             <div class="achievementDescription"><p>Lived + worked in China for 2 years</p></div>
                         </div>
                 </div>
-                <div class="achievementCards d-flex  p-4 justify-content-around">
+                <div class="achievementCards d-flex  p-4 justify-content-center">
                     <div class="profileIcon achievementIcon col-2 p-0">
                         <i class="fas fa-bolt"></i>
                     </div>
@@ -168,7 +196,7 @@
                         <div class="achievementDescription"><p>Ran 5 marathons across Europe</p></div>
                     </div>
                 </div>
-                <div class="achievementCards d-flex p-4 justify-content-around">
+                <div class="achievementCards d-flex p-4 justify-content-center">
                     <div class="profileIcon achievementIcon col-2 p-0">
                         <i class="fas fa-code"></i>
                     </div>
@@ -179,7 +207,7 @@
                     
                 </div>
             </div>
-            <div class=" projects">
+            <div class=" projects px-2">
                 <div class="header">PROJECTS</div>
                 <div class="projectCard">
                     <div class="projectTitle">Dorothy AI
@@ -189,7 +217,7 @@
                         <div class="projectLocation"><i class="fas fa-map-marker-alt"></i>Brussels, Belgium</div>
                     </div>
                     <div class="projectDescription">
-                        <p>Co-Developped an AI designed to accompany students throughout their curriculum at the BeCode Coding School</p>
+                        <p>Co-Developped an AI tool using Dialogflow designed to help students throughout their curriculum at the BeCode Coding School</p>
                     </div>
                 </div>
                 <div class="projectCard">
@@ -209,7 +237,7 @@
                         <div class="projectLocation"><i class="fas fa-map-marker-alt"></i>Brussels, Belgium</div>
                     </div>
                     <div class="projectDescription">
-                        <p>Built a website for my brother's business from scratch</p>
+                        <p>Built a website for my brother's business from scratch.</p>
                     </div>
                 </div>
             </div>
@@ -265,7 +293,7 @@
                 </div>
                 <div class="myStack col-12">
                     <div class="header">
-                        COMPUTER LANGUAGES & TECH STACK
+                        TECH STACK
                     </div>
                     <div class="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "fitRows" }'>
                         <div class="grid-sizer"></div>
@@ -299,7 +327,7 @@
                 </div> 
         </div>
         
-        <div class="rightColumn col-4 m-0 p-0">
+        <div class="rightColumn col-4 my-0 mr-0 ml-4 p-0">
                 <div class=" col-12 p-0 volunteer">
                     <div class="header">
                         VOLUNTEER
@@ -347,56 +375,33 @@
                 </div>
             <div class="languages">
                 <div class="header">
-                    HUMAN LANGUAGES
+                    LANGUAGES
                 </div>
-                <div class="languageCards d-flex justify-content-between">
+                <div class="languageCards d-flex justify-content-center py-1">
                     <div class="col-4 p-0">English</div>
+                    <!-- <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-blue w3-round-xlarge" style="width:25%">25%</div>
+                    </div> -->
                     <progress class="col-6 px-0" value="95" max="100"></progress>
                 </div>
-                <div class="languageCards d-flex justify-content-between">
+                <div class="languageCards d-flex justify-content-center py-1">
                     <div class="col-4 p-0">French</div>
                     <progress class="col-6 px-0" value="95" max="100"></progress>
                 </div>
-                <div class="languageCards d-flex justify-content-between">
+                <div class="languageCards d-flex justify-content-center py-1">
                     <div class="col-4 p-0">Italian</div>
                     <progress class="col-6 px-0" value="75" max="100"></progress>
                 </div>
-                <div class="languageCards d-flex justify-content-between">
+                <div class="languageCards d-flex justify-content-center py-1">
                     <div class="col-4 p-0">Dutch</div>
                     <progress class="col-6 px-0" value="60" max="100"></progress>
                 </div>
-                <div class="languageCards d-flex justify-content-between">
+                <div class="languageCards d-flex justify-content-center py-1">
                     <div class="col-4 p-0">Mandarin</div>
                     <progress class="col-6 px-0"  value="45" max="100"></progress>
                 </div>
             </div>
-            <div class="strengths">
-                <div class="header">
-                    STRENGTHS
-                </div>
-                <div class=" d-flex">
-                    <div class="strengthsLeftColumn col-6 p-0">
-                        <div class="strengthCard">
-                            <img class="freepixIcons" src="icons/dream-catcher.svg" />
-                            <p class="ml-4">Creative</p>
-                        </div>
-                        <div class="strengthCard">
-                            <img class="freepixIcons" src="icons/resilience.svg">
-                            <p class="ml-4">Resilient</p>
-                        </div>
-                    </div>
-                    <div class="strengthsRightColumn col-6 p-0">
-                        <div class="strengthCard">
-                            <img class="freepixIcons" src="icons/meditation.svg">
-                            <p class="ml-4">Calm under pressure</p>
-                        </div>
-                        <div class="strengthCard">
-                            <img class="freepixIcons" src="icons/astro.svg">
-                            <p class="ml-4">Bold Thinker</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
         
     </div>
@@ -411,6 +416,7 @@
     
    <!-- <script src="/path/to/isotope.pkgd.min.js"></script> -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+   
 </body>
 
 </html>
