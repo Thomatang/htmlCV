@@ -90,7 +90,7 @@ font-family: 'Roboto', sans-serif;
 
 
 .profileIcon{
-    font-size: 18px;
+    font-size: 21px;
 }
 
 .achievementIcon{
@@ -108,10 +108,13 @@ font-family: 'Roboto', sans-serif;
 .profilecontent{
     display: flex;
     align-items: center;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 .profilecontent p {
     font-weight: normal;
+    font-size: 18px;
+    
+
 }
 
 .experienceCard {
