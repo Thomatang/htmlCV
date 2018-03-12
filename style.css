@@ -165,7 +165,7 @@ progress{
 }
 
 .freepixIcons{
-    height: 30px;
+    height: 40px;
     width: auto;
 }
 
@@ -179,6 +179,9 @@ progress{
 .strengthCard{
     display: flex;
     font-weight: 500;
+    font-size: 30px;
+}
+.strengthCard p{
     font-size: 20px;
 }
 
