@@ -8,13 +8,13 @@ html {
 .grid-sizer,
 .grid-item{ 
     width: 5%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: left;
  }
 .grid-item--width2 { 
     width: 50%; 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .borda{
     border-right: dashed #cccccc 1px;
@@ -108,7 +108,7 @@ font-family: 'Roboto', sans-serif;
 .profilecontent{
     display: flex;
     align-items: center;
-    letter-spacing: 2px;
+    /* letter-spacing: 1px; */
 }
 .profilecontent p {
     font-weight: normal;
@@ -161,11 +161,12 @@ progress{
 }
 
 ::-webkit-progress-value {
-  background:linear-gradient(to bottom,  #64CED3 0%, #64CED3 25%, #3BBCC2 50%, #1ab0b5 75%,  #64CED3 100%);
+  /* background:linear-gradient(to bottom,  #64CED3 0%, #64CED3 25%, #3BBCC2 50%, #1ab0b5 75%,  #64CED3 100%); */
+  background: #64CED3;
 }
 
 .freepixIcons{
-    height: 40px;
+    height: 30px;
     width: auto;
 }
 
@@ -190,16 +191,16 @@ progress{
 }
 
 p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     
 }
 li{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .languageCards{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
